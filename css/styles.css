@@ -196,7 +196,7 @@
   [type="button"],
   [type="reset"],
   [type="submit"] {
-    -webkit-appearance: button;
+   appearance: button;
   }
   
   /**
@@ -288,7 +288,7 @@
    */
   
   [type="search"] {
-    -webkit-appearance: textfield; /* 1 */
+   appearance: textfield; /* 1 */
     outline-offset: -2px; /* 2 */
   }
   
@@ -423,4 +423,41 @@ a:focus {
 .button.contact:hover {
     background-color: #ff7f50;
     color: #ffffff;
+}
+/* Layout styling */
+.container {
+  padding: 0 15px;
+}
+.row {
+  margin: 25px; /* 25px top and bottom, 0 left and right */
+}
+#hero h1 {
+  text-align: center;
+}
+#hero {
+  background-color: #bce9fd;
+}
+
+.center {
+  text-align: center;
+}
+.logo {
+  max-width: 250px;
+}
+header { background-color: #bce9fd;
+         text-align: center;
+         padding: 10px 0;  
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #3d3d3e;
 }
