@@ -996,6 +996,31 @@ work {
   display: inline-block;
   
   }
+  .navtoggle li:not(:last-child) {
+    display: none;
+    }
+    .navtoggle, .navtoggle.responsive {
+    position: relative;
+    }
+    .navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    font-size: 20px;
+    padding-right: 0;
+    }
+    
+    .navtoggle.responsive nav {
+    padding: 24px 0 0;
+    }
+    
+    .navtoggle.responsive li {
+    display: block;
+    padding: 10px 0;
+    }
+    .navtoggle.responsive li:last-child {
+    padding: 0 0 10px;
+    }
   
   /* Medium devices (640px and larger) */
   
