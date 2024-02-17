@@ -389,7 +389,7 @@ Tertiary Color (Dark Gray) #3d3d3e
 a {
     color: #bce9fd;
     text-decoration: none; /* No underlining */
-  }
+}
 a:visited { /* visited link */
     color: #bce9fd;
 }
@@ -617,7 +617,7 @@ nav > ul > li > a {
     flex: 16.66%
   }
   
-  }
+  
   
   /* Large devices 1024px or larger) */
 
@@ -918,8 +918,8 @@ text-decoration: underline;
 }
 .button {
 display: inline-block;
-background-color: #ff7f50;
-color: #333;
+background-color: #DB3B00;
+color: #3A3A3A;
 font-weight: 400;
 padding: 10px;
 border-radius: 3px;
@@ -1128,7 +1128,7 @@ work {
   flex: 16.66%
   }
   
-  }
+  
   
   /* Large devices 1024px or larger) */
   
